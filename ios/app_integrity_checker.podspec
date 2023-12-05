@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 A Flutter plugin to check app integrity in Android and iOS to detect if app has been tampered with.
                        DESC
-  s.homepage         = 'https://github.com/romikavinda/'
+  s.homepage         = 'https://github.com/romikavinda/app_integrity_checker'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'romikavinda' => '' }
   s.source           = { :path => '.' }
