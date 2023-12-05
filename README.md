@@ -76,6 +76,6 @@ import 'package:app_integrity_checker/app_integrity_checker.dart';
 ✤ Depending on your requirement you can decide to use either a part of the checksum value or all of it.  
 
 ## Signature (SHA-256)
-✤ This value is based on the app code signature and will change when uploaded to app store since apple replaces the developer certificates uses their own certificates for code signing. 
+✤ This value is based on the app code signature and will change when uploaded to app store since apple replaces the developer certificates and uses their own certificates for code signing. 
 
 ✤ Use appropriately to match your requirement.  
