@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'app_integrity_checker_platform_interface.dart';
 
 class AppIntegrityChecker {
