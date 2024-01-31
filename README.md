@@ -64,6 +64,9 @@ import 'package:app_integrity_checker/app_integrity_checker.dart';
 
 # iOS output
 
+## Note
+Some of the methods used for checksum generation for iOS only works on arm64 devices(Physical iOS device Architecture) and therefore if the build target is anything other than arm64 eg - iOS emulator x86_64 , the compiler will throw errors indicating some methods are not found.
+
 ## Checksum (SHA-256)
 ✤ This value outputs a 24 character string.
 
