@@ -19,7 +19,7 @@ or add the below line to your package's pubspec.yaml:
 
 ```
 dependencies:
-  app_integrity_checker: ^1.0.1
+  app_integrity_checker: ^1.0.3
 
 ```
 
@@ -29,7 +29,7 @@ dependencies:
 No Configurations Needed.
 
 ## iOS
-Some of the methods used for checksum generation for iOS only works on arm64 devices(Physical iOS device Architecture) and therefore if the build target is anything other than arm64 eg - iOS emulator x86_64 , the compiler will throw errors indicating some methods are not found.
+No Configurations Needed.
 
 # Usage
 
@@ -65,13 +65,13 @@ import 'package:app_integrity_checker/app_integrity_checker.dart';
 # iOS output
 
 ## Checksum (SHA-256)
-✤ This value outputs a 24 character string.
+✤ This value outputs a 24 character string for physical iOS device. For emulators or non Arm64 architecture devices this will be only first 8 characters.
 
 ✤ First 8 characters  - The checksum value of the dart code.Value might change with each build and also if dart code is tampered with.
 
-✤ Second 8 characters - The checksum of the native swift code. value will change with each build if changes are made to the native code or native code is tampered with.
+✤ Second 8 characters - The checksum of the native swift code. value will change with each build if changes are made to the native code or native code is tampered with.(Only available for Arm64)
 
-✤ Third 8 characters  - The checksum of IOSSecuritySuite dlib. value will change with each build if changes are made to the IOSSecuritySuite dlib or IOSSecuritySuite dlib is tampered with.
+✤ Third 8 characters  - The checksum of IOSSecuritySuite dlib. value will change with each build if changes are made to the IOSSecuritySuite dlib or IOSSecuritySuite dlib is tampered with.(Only available for Arm64)
 
 ✤ Depending on your requirement you can decide to use either a part of the checksum value or all of it.
 
