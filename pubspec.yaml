@@ -1,11 +1,11 @@
 name: app_integrity_checker
-description: A Flutter plugin to check app integrity in Android and iOS to detect if app has been tampered with.
-version: 1.0.1
+description: Flutter plugin to verify the integrity of the app and detect if it has been tampered at run time.
+version: 1.0.3
 homepage: https://github.com/romikavinda/app_integrity_checker
 
 environment:
-  sdk: '>=2.19.4 <4.0.0'
-  flutter: ">=2.5.0"
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: '>=3.3.0'
 
 dependencies:
   flutter:
