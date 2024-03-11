@@ -9,3 +9,7 @@
 ## 1.0.3
 
 * Emulator support added
+
+## 1.0.4
+
+* White space return fixed
