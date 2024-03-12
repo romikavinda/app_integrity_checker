@@ -19,7 +19,7 @@ or add the below line to your package's pubspec.yaml:
 
 ```
 dependencies:
-  app_integrity_checker: ^1.0.3
+  app_integrity_checker: ^1.0.5
 
 ```
 
