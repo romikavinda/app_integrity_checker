@@ -8,8 +8,12 @@
 
 ## 1.0.3
 
-* Emulator support added
+* Emulator support added.
 
 ## 1.0.4
 
-* White space return fixed
+* White space return fixed.
+
+## 1.0.5
+
+* Minor fix.
