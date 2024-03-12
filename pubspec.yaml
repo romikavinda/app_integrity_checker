@@ -1,6 +1,6 @@
 name: app_integrity_checker
 description: Flutter plugin to verify the integrity of the app and detect if it has been tampered at run time.
-version: 1.0.4
+version: 1.0.5
 homepage: https://github.com/romikavinda/app_integrity_checker
 
 environment:
